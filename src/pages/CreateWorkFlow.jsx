@@ -5,7 +5,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { workflowAPI } from '../services/api';
 
-const CreateWorkflow = () => {
+const CreateWorkFlow = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
@@ -143,4 +143,4 @@ const CreateWorkflow = () => {
   );
 };
 
-export default CreateWorkflow;
+export default CreateWorkFlow;
